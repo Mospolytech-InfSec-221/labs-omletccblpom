@@ -7,7 +7,7 @@ int main() {
 	setlocale(LC_ALL, "rus");
 
 	//1
-	std::cout << "1. Ëåäÿåâ Òèìîôåé Ñåðãååâè÷, 221-353 " << std::endl;
+	std::cout << "1. Ã‹Ã¥Ã¤Ã¿Ã¥Ã¢ Ã’Ã¨Ã¬Ã®Ã´Ã¥Ã© Ã‘Ã¥Ã°Ã£Ã¥Ã¥Ã¢Ã¨Ã·, 221-353 " << std::endl;
 
 	//2
 	std::cout << "2." << std::endl;
@@ -22,19 +22,19 @@ int main() {
 	std::cout << "min bool = " << (bool)0 << ", max bool = " << (bool)0b01111111 << ", size of bool = " << sizeof(bool) << std::endl;
 
 	//3
-	std::cout << "3. Ââåäèòå ÷èñëî: " << std::endl;
+	std::cout << "3. Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®: " << std::endl;
 	
 	long long g;
 	
 	std::cin >> g;
-	std::cout << "Â äâîè÷íîì âèäå: " << std::bitset<std::numeric_limits<int>::digits>(g) << std::endl;
-	std::cout << "Â øåñòíàäöàòèðå÷íîì âèäå: " << std::hex << g << std::endl;
+	std::cout << "Ã‚ Ã¤Ã¢Ã®Ã¨Ã·Ã­Ã®Ã¬ Ã¢Ã¨Ã¤Ã¥: " << std::bitset<std::numeric_limits<int>::digits>(g) << std::endl;
+	std::cout << "Ã‚ Ã¸Ã¥Ã±Ã²Ã­Ã Ã¤Ã¶Ã Ã²Ã¨Ã°Ã¥Ã·Ã­Ã®Ã¬ Ã¢Ã¨Ã¤Ã¥: " << std::hex << g << std::endl;
 	std::cout << "bool " << (bool)g << std::endl;
 	std::cout << "double " << (double)g << std::endl;
 	std::cout << "char " << (char)g << std::endl;
 
 	//4
-	std::cout << "4. a*x=b. Ââåäèòå çíà÷åíèÿ a è b: ";
+	std::cout << "4. a*x=b. Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¿ a Ã¨ b: ";
 	
 	int a, b;
 	double x;
@@ -49,17 +49,17 @@ int main() {
 	x = b / a;
 	
 	std::cout << "x" << "=" << x << std::endl;
-	std::cout << "Îòâåò: " << x << std::endl;
+	std::cout << "ÃŽÃ²Ã¢Ã¥Ã²: " << x << std::endl;
 	
 	//5
-	std::cout << "5.Ââåäèòå êîîðäèíàòû îòðåçêà íà ïðÿìîé: ";
+	std::cout << "5.Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã» Ã®Ã²Ã°Ã¥Ã§ÃªÃ  Ã­Ã  Ã¯Ã°Ã¿Ã¬Ã®Ã©: ";
 	
 	int d, c;
 	float e;
 	
 	std::cin >> d >> c;
 	e = (d + c) / 2.;
-	std::cout << "Öåíòð êîîðäèíàò íàõîäèòñÿ â òî÷êå: " << e << "." << std::endl;
+	std::cout << "Ã–Ã¥Ã­Ã²Ã° ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã² Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã±Ã¿ Ã¢ Ã²Ã®Ã·ÃªÃ¥: " << e << "." << std::endl;
 
 	return 0;
 }
